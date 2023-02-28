@@ -1,0 +1,28 @@
+.letter {
+    Position:relative;
+    top:0;
+    padding:4px;
+    transition: all .2s ease-in-out;
+}
+
+.letter:hover {
+    top:-8px;
+}
+
+#frase {
+    position: absolute;
+    animation: frase 2s infinite alternate linear;
+    -webkit-animation: frase  8s infinite alternate linear;
+  }
+  
+  @keyframes frase {
+    0% {
+      left: 10%;
+      down: 15%;
+    }
+  
+    100% {
+      left: 25%;
+      top: 15%;
+    }
+  }

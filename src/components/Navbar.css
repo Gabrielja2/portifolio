@@ -1,0 +1,14 @@
+.scrolled {
+    background: linear-gradient(90deg, #001416, #000507);
+}
+
+#Navbar a {
+    position:relative;
+    top:0;
+    padding:4px;
+    transition: all .2s ease-in-out;
+}
+
+#Navbar a:hover{
+    top:-8px;
+}

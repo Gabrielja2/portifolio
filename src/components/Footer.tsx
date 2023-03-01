@@ -6,8 +6,12 @@ function Footer() {
       <span className="text-white flex justify-center text-center px-3 py-2 rounded-md text-sm font-medium">
         <span className="mr-1">Did you like it? Connect with me on</span>
         <span>
-          <a className="mr-1" href="#home">
-            social media
+          <a
+            target="_blank"
+            href="https://wa.me/5524999092052?text=sua%20mensagem"
+            rel="noreferrer"
+          >
+            WhatsApp
           </a>
         </span>
         <span className="mr-1"> or send me an</span>

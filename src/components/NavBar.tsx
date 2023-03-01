@@ -32,9 +32,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <a href=" " className="text-orange-500 rounded font-bold text-xl">
-              Hello, Wellcome!{" "}
-            </a>
+            <span className="text-orange-500 text-xl">Hello, Wellcome! </span>
             <img
               alt=""
               src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
@@ -44,25 +42,25 @@ function Navbar() {
           <div className="hidden md:flex">
             <a
               href="#home"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="font-bold text-white opacity-80 ml-3 hover:text-orange-500"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="font-bold text-white opacity-80 ml-3 hover:text-orange-500"
             >
               About
             </a>
             <a
               href="#projects"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="font-bold text-white opacity-80 ml-3 hover:text-orange-500"
             >
               Projects
             </a>
             <a
               href="#skills"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="font-bold text-white opacity-80 ml-3 hover:text-orange-500"
             >
               Skills
             </a>
@@ -71,7 +69,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
               target="_blank"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="font-bold text-white ml-3"
               rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
@@ -79,7 +77,7 @@ function Navbar() {
             <a
               href="https://github.com/Gabrielja2"
               target="_blank"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="tfont-bold text-white ml-3"
               rel="noreferrer"
             >
               <img src={github} alt="github" />
@@ -87,7 +85,7 @@ function Navbar() {
             <a
               href="https://www.instagram.com/gabrielja2antunes/"
               target="_blank"
-              className="text-gray-300 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium"
+              className="tfont-bold text-white ml-3"
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram" />
@@ -100,12 +98,20 @@ function Navbar() {
               aria-label="Toggle menu"
               onClick={handleToggle}
             >
-              <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
-                <path
-                  fillRule="evenodd"
-                  d="M3 18h18v-2H3v2zM3 13h18v-2H3v2zM3 8h18V6H3v2z"
-                ></path>
-              </svg>
+              {showLinks ? (
+                <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
+                  <path d="M4 4 L20 20" stroke="orange" strokeWidth="2" />
+                  <path d="M20 4 L4 20" stroke="orange" strokeWidth="2" />
+                </svg>
+              ) : (
+                <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
+                  <path
+                    fill="orange"
+                    fillRule="evenodd"
+                    d="M3 18h18v-2H3v2zM3 13h18v-2H3v2zM3 8h18V6H3v2z"
+                  ></path>
+                </svg>
+              )}
             </button>
           </div>
         </div>
@@ -115,25 +121,25 @@ function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
               href="#home"
-              className="text-gray-300 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
             >
               Home
             </a>
             <a
               href="#about"
-              className="text-gray-300 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
             >
               About
             </a>
             <a
               href="#projects"
-              className="text-gray-300 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
             >
               Projects
             </a>
             <a
               href="#skills"
-              className="text-gray-300 hover:text-orange-500 block px-3 py-2 rounded-md text-base font-medium"
+              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
             >
               Skills
             </a>

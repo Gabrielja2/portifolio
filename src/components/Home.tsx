@@ -18,15 +18,18 @@ function Home() {
       className="bg-cover h-screen"
       style={{ backgroundImage: `url(${home})` }}
     >
-      <div id="frase" className="flex justify-center items-center h-full">
+      <div
+        id="frase"
+        className="flex justify-center items-center mx-auto my-64"
+      >
         <h1
-          className="font-bold text-white mb-4 opacity-80 mr-3"
+          className="font-bold text-white mb-4 mr-3"
           style={{ fontSize: "5vw" }}
         >
           I'm a
         </h1>
         <h1
-          className="font-bold text-orange-500 mb-4 opacity-80 mr-3"
+          className="font-bold text-orange-500 mb-4 mr-3"
           style={{ fontSize: "5vw" }}
         >
           {text}

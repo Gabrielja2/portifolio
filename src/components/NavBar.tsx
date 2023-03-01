@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import linkedin from ".././assets/img/nav-icon1.svg";
 import github from ".././assets/img/nav-icon2.svg";
 import instagram from ".././assets/img/nav-icon3.svg";
-import "./Navbar.css";
 import profile from ".././assets/img/profile.png";
+import email from ".././assets/img/nav-icon4.svg";
+import zap from ".././assets/img/nav-icon5.svg";
+import "./Navbar.css";
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -68,7 +70,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
               target="_blank"
-              className="font-bold text-white ml-3"
+              className="ml-3"
               rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
@@ -76,7 +78,7 @@ function Navbar() {
             <a
               href="https://github.com/Gabrielja2"
               target="_blank"
-              className="tfont-bold text-white ml-3"
+              className="ml-3"
               rel="noreferrer"
             >
               <img src={github} alt="github" />
@@ -84,10 +86,25 @@ function Navbar() {
             <a
               href="https://www.instagram.com/gabrielja2antunes/"
               target="_blank"
-              className="tfont-bold text-white ml-3"
+              className="ml-3"
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram" />
+            </a>
+            <a
+              href="mailto:gabrielja2antunes@gmail.com"
+              className="ml-3 opacity-70"
+              rel="noreferrer"
+            >
+              <img width="28px" src={email} alt="send-email" />
+            </a>
+            <a
+              target="_blank"
+              href="https://wa.me/5524999092052?text=sua%20mensagem"
+              className="ml-3 opacity-70"
+              rel="noreferrer"
+            >
+              <img width="28px" src={zap} alt="send-email" />
             </a>
           </div>
           <div className="flex md:hidden">
@@ -147,7 +164,7 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
               target="_blank"
-              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="block ml-3"
               rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
@@ -155,7 +172,7 @@ function Navbar() {
             <a
               href="https://github.com/Gabrielja2"
               target="_blank"
-              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="block ml-3"
               rel="noreferrer"
             >
               <img src={github} alt="github" />
@@ -163,10 +180,25 @@ function Navbar() {
             <a
               href="https://www.instagram.com/gabrielja2antunes/"
               target="_blank"
-              className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="block ml-3"
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram" />
+            </a>
+            <a
+              href="mailto:gabrielja2antunes@gmail.com"
+              className="block ml-3 opacity-70"
+              rel="noreferrer"
+            >
+              <img width="27px" src={email} alt="send-email" />
+            </a>
+            <a
+              target="_blank"
+              href="https://wa.me/5524999092052?text=sua%20mensagem"
+              className="block ml-3 opacity-70"
+              rel="noreferrer"
+            >
+              <img width="28px" src={zap} alt="send-email" />
             </a>
           </div>
         </div>

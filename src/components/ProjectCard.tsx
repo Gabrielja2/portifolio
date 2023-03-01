@@ -12,7 +12,7 @@ import "./ProjectCards.css";
 function ProjectCards() {
   return (
     <div
-      data-aos="zoom-in-up"
+      data-aos="fade-left"
       className=" tam flex flex-wrap justify-center mx-auto gap-4"
     >
       <div className="m-4 text-center img">

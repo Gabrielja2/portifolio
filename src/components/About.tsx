@@ -20,18 +20,18 @@ function Home() {
           data-aos="fade-left"
           className="text-lg text-white mb-8 text-justify md:text-xl"
         >
-          Olá me chamo Gabriel, tenho 31 anos, sou de Volta Redonda - RJ e sou
-          apaixonado pelo desenvolvimento back-end, o temido "mundo sem divs e
-          cores rsrs", especificamente Node.js, rsrs". Sou muito curioso, amo
-          aprender coisas novas e conhecer pessoas. A cerca de dois anos iniciei
-          minha transição de carreira para área de tecnologia, logo de cara
-          descobri uma nova paixão chamada <i>"Codar"</i>, e através dos
-          códigos, criar soluções para problemas reais. Certa vez ouvi uma frase
-          numa palestra que me marcou, ela dizia:{" "}
+          Olá me chamo Gabriel, tenho 31 anos, sou de Volta Redonda - RJ. Sou
+          apaixonado pelo desenvolvimento back-end, principalmente desenvolver
+          com Nodejs. Sou muito curioso, amo aprender coisas novas e conhecer
+          pessoas. A cerca de dois anos iniciei minha transição de carreira para
+          área de tecnologia, logo de cara descobri uma nova paixão chamada{" "}
+          <i>"Codar"</i>, e pode criar soluções para problemas reais. Certa vez
+          ouvi uma frase numa palestra que dizia:{" "}
           <i>"Devemos ser apaixonados pelo problema e não pela solução"</i>.
-          Desde então venho estudando muito javascript, typescript, react, node
-          e python, sempre mantendo o foco e a busca contínua em aperfeiçoar
-          meus conhecimentos.
+          Assim, buscando sempre soluções cada vez mais inovadoras. E desde
+          então venho estudando bastante, javascript, typescript, react, node e
+          python. Meu compromisso em aprender continuamente me permite sempre
+          buscar novas maneiras de aprimorar minhas habilidades e conhecimentos.
         </p>
         <img
           data-aos="zoom-in-up"

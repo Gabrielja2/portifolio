@@ -3,6 +3,7 @@ import linkedin from ".././assets/img/nav-icon1.svg";
 import github from ".././assets/img/nav-icon2.svg";
 import instagram from ".././assets/img/nav-icon3.svg";
 import "./Navbar.css";
+import profile from ".././assets/img/profile.png";
 
 function Navbar() {
   const [showLinks, setShowLinks] = useState(false);
@@ -32,12 +33,10 @@ function Navbar() {
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <span className="text-orange-500 text-xl">Hello, Wellcome! </span>
-            <img
-              alt=""
-              src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
-              width="28"
-            ></img>
+            <span className="text-orange-500 text-xl mr-2">
+              Hello, Wellcome!{" "}
+            </span>
+            <img alt="" src={profile} width="28"></img>
           </div>
           <div className="hidden md:flex">
             <a
@@ -100,13 +99,13 @@ function Navbar() {
             >
               {showLinks ? (
                 <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
-                  <path d="M4 4 L20 20" stroke="orange" strokeWidth="2" />
-                  <path d="M20 4 L4 20" stroke="orange" strokeWidth="2" />
+                  <path d="M4 4 L20 20" stroke="#ff5e00" strokeWidth="2" />
+                  <path d="M20 4 L4 20" stroke="#ff5e00" strokeWidth="2" />
                 </svg>
               ) : (
                 <svg viewBox="0 0 24 24" className="h-6 w-6 fill-current">
                   <path
-                    fill="orange"
+                    fill="#ff5e00"
                     fillRule="evenodd"
                     d="M3 18h18v-2H3v2zM3 13h18v-2H3v2zM3 8h18V6H3v2z"
                   ></path>

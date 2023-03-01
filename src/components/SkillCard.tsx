@@ -13,11 +13,12 @@ import "./SkillCard.css";
 function SkillCard() {
   return (
     <div
-      data-aos="zoom-in-up"
-      className=" tam flex flex-wrap justify-center mx-auto gap-1"
+      data-aos="fade-right"
+      className="tam flex flex-wrap justify-center m-auto gap-4"
     >
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -27,6 +28,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -36,6 +38,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -45,6 +48,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -54,6 +58,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -63,6 +68,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -72,6 +78,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -81,6 +88,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -90,6 +98,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"
@@ -99,6 +108,7 @@ function SkillCard() {
       </div>
       <div className="m-4 text-center img">
         <a
+          className="flex justify-center"
           href="https://icons8.com.br/license"
           target="_blank"
           rel="noreferrer"

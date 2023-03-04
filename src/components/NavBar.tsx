@@ -30,7 +30,7 @@ function Navbar() {
   }
 
   return (
-    <nav id="Navbar" className="fixed top-0 z-50 w-full bg-transparent">
+    <nav id="Navbar" className="fixed top-0 z-50 w-full">
       <div className="mx-3">
         <div className="flex items-center justify-between h-16">
           <div>

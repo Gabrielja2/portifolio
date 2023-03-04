@@ -9,6 +9,10 @@
     top:-8px;
 }
 
+#home {
+    background: linear-gradient(90deg, #001416, #000507);
+}
+
 #frase {  
     animation: frase 2s infinite alternate linear;
     -webkit-animation: frase  8s infinite alternate linear;

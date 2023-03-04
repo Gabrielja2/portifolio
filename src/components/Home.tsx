@@ -1,4 +1,3 @@
-import home from "../assets/img/home.jpg";
 import "./Home.css";
 import { useTypewriter } from "react-simple-typewriter";
 
@@ -13,11 +12,7 @@ function Home() {
     loop: true,
   });
   return (
-    <div
-      id="home"
-      className="bg-cover h-screen flex"
-      style={{ backgroundImage: `url(${home})` }}
-    >
+    <div id="home" className="flex h-screen">
       <div id="frase" className="flex justify-center items-center mx-auto">
         <h1
           className="font-bold text-white mb-4 mr-3"

@@ -15,13 +15,10 @@ function Home() {
   return (
     <div
       id="home"
-      className="bg-cover h-screen"
+      className="bg-cover h-screen flex"
       style={{ backgroundImage: `url(${home})` }}
     >
-      <div
-        id="frase"
-        className="flex justify-center items-center mx-auto my-64"
-      >
+      <div id="frase" className="flex justify-center items-center mx-auto">
         <h1
           className="font-bold text-white mb-4 mr-3"
           style={{ fontSize: "5vw" }}

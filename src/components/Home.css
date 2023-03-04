@@ -9,20 +9,7 @@
     top:-8px;
 }
 
-#frase {
-    position: absolute;
+#frase {  
     animation: frase 2s infinite alternate linear;
     -webkit-animation: frase  8s infinite alternate linear;
-  }
-  
-  @keyframes frase {
-    0% {
-      left: 10%;
-      down: 15%;
-    }
-  
-    100% {
-      left: 25%;
-      top: 15%;
-    }
   }

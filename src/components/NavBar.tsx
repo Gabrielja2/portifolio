@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import linkedin from ".././assets/img/nav-icon1.svg";
 import github from ".././assets/img/nav-icon2.svg";
 import instagram from ".././assets/img/nav-icon3.svg";
-import profile from ".././assets/img/profile.png";
 import email from ".././assets/img/nav-icon4.svg";
 import zap from ".././assets/img/nav-icon5.svg";
 import "./Navbar.css";
@@ -32,18 +31,15 @@ function Navbar() {
 
   return (
     <nav id="Navbar" className="fixed top-0 z-50 w-full bg-transparent">
-      <div className="max-w-7xl mx-auto">
+      <div className="mx-3">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <span className="text-orange-500 text-xl mr-2">
-              Hello, Wellcome!{" "}
-            </span>
-            <img alt="" src={profile} width="28"></img>
+          <div>
+            <span className="text-orange-500 text-xl">Hello, Wellcome! </span>
           </div>
           <div className="hidden md:flex">
             <a
               href="#home"
-              className="font-bold text-white opacity-80 ml-3 hover:text-orange-500"
+              className="font-bold text-white opacity-80 hover:text-orange-500"
             >
               Home
             </a>
@@ -70,7 +66,6 @@ function Navbar() {
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
               target="_blank"
-              className="ml-3"
               rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
@@ -111,7 +106,6 @@ function Navbar() {
             <button
               type="button"
               className="text-gray-500 hover:text-orange-500 focus:outline-none focus:text-white"
-              aria-label="Toggle menu"
               onClick={handleToggle}
             >
               {showLinks ? (
@@ -134,37 +128,37 @@ function Navbar() {
       </div>
       {showLinks && (
         <div className="md:hidden flex justify-between">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="ml-3">
             <a
               href="#home"
-              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
+              className="text-white opacity-80 hover:text-orange-500 block"
             >
               Home
             </a>
             <a
               href="#about"
-              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
+              className="text-white opacity-80 hover:text-orange-500 block"
             >
               About
             </a>
             <a
               href="#projects"
-              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
+              className="text-white opacity-80 hover:text-orange-500 block"
             >
               Projects
             </a>
             <a
               href="#skills"
-              className="font-bold text-white opacity-80 mr-3 hover:text-orange-500 block"
+              className="text-white opacity-80 hover:text-orange-500 block"
             >
               Skills
             </a>
           </div>
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="mr-2">
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
               target="_blank"
-              className="block ml-3"
+              className="block"
               rel="noreferrer"
             >
               <img src={linkedin} alt="linkedin" />
@@ -172,7 +166,7 @@ function Navbar() {
             <a
               href="https://github.com/Gabrielja2"
               target="_blank"
-              className="block ml-3"
+              className="block"
               rel="noreferrer"
             >
               <img src={github} alt="github" />
@@ -180,14 +174,14 @@ function Navbar() {
             <a
               href="https://www.instagram.com/gabrielja2antunes/"
               target="_blank"
-              className="block ml-3"
+              className="block"
               rel="noreferrer"
             >
               <img src={instagram} alt="instagram" />
             </a>
             <a
               href="mailto:gabrielja2antunes@gmail.com"
-              className="block ml-3 opacity-70"
+              className="block opacity-70"
               rel="noreferrer"
             >
               <img width="27px" src={email} alt="send-email" />
@@ -195,7 +189,7 @@ function Navbar() {
             <a
               target="_blank"
               href="https://wa.me/5524999092052?text=sua%20mensagem"
-              className="block ml-3 opacity-70"
+              className="block opacity-70"
               rel="noreferrer"
             >
               <img width="28px" src={zap} alt="send-email" />

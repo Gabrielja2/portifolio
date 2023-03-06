@@ -12,7 +12,7 @@ import "./SkillCard.css";
 
 function SkillCard() {
   return (
-    <div className="tam flex flex-wrap justify-center m-auto gap-4">
+    <div className="tam flex flex-wrap justify-center m-auto gap-4 py-8">
       <div className="m-4 text-center img">
         <a
           className="flex justify-center"

@@ -5,12 +5,12 @@ function About() {
     <div
       id="about"
       style={{ background: "#001416" }}
-      className="flex flex-col justify-center min-h-screen"
+      className="flex flex-col justify-center min-h-screen py-8"
     >
       <div className="text-center">
         <h5
           data-aos="fade-up"
-          className="text-3xl my-8 opacity-80 md:text-5xl lg:text-6xl text-orange-500"
+          className="text-3xl pb-24 opacity-80 md:text-5xl lg:text-6xl text-orange-500"
         >
           --- About ---
         </h5>
@@ -40,7 +40,7 @@ function About() {
           }}
           src={profile}
           alt="profile-pic"
-          className="m-8 md:m-0"
+          className="py-8 m-8 md:m-0"
         />
       </div>
     </div>

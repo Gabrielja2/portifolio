@@ -4,6 +4,7 @@ import github from ".././assets/img/nav-icon2.svg";
 import instagram from ".././assets/img/nav-icon3.svg";
 import email from ".././assets/img/nav-icon4.svg";
 import zap from ".././assets/img/nav-icon5.svg";
+import heart from ".././assets/img/heart.svg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -33,8 +34,19 @@ function Navbar() {
     <nav id="Navbar" className="fixed top-0 z-50 w-full">
       <div className="mx-3">
         <div className="flex items-center justify-between h-16">
-          <div>
-            <span className="text-orange-500 text-xl">Hello, Wellcome! </span>
+          <div className="flex">
+            <span className="mr-1 text-orange-500 text-xl">
+              Hello, Wellcome!{" "}
+            </span>
+            <div id="mydiv">
+              <img
+                draggable="true"
+                id="draggable-img"
+                src={heart}
+                alt="heart"
+                width="28px"
+              />
+            </div>
           </div>
           <div className="hidden md:flex">
             <a

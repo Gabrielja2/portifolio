@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     font-family: 'Centra', sans-serif !important;
+    overflow-x: hidden;
   }

@@ -11,7 +11,7 @@ import "./ProjectCards.css";
 
 function ProjectCards() {
   return (
-    <div className=" tam flex flex-wrap justify-center mx-auto gap-4 py-8">
+    <div className=" tam flex flex-wrap justify-center mx-auto gap-10 py-8">
       <div data-aos="fade-left" className="m-4 text-center img">
         <a
           href="https://github.com/Gabrielja2/Projeto-Blogs-API"

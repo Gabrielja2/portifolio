@@ -1,6 +1,6 @@
 import profile from "../assets/img/profile.jpg";
 
-function Home() {
+function About() {
   return (
     <div
       id="about"
@@ -15,23 +15,20 @@ function Home() {
           --- About ---
         </h5>
       </div>
-      <div className="flex flex-wrap justify-center mx-auto w-6/12">
+      <div className="flex flex-wrap justify-center mx-auto sm:w-2/4 w-3/4">
         <p
           data-aos="fade-left"
           className="text-lg text-white mb-8 text-justify md:text-xl"
         >
-          Olá me chamo Gabriel, tenho 31 anos, sou de Volta Redonda - RJ. Sou
-          apaixonado pelo desenvolvimento back-end, principalmente desenvolver
-          com Nodejs. Sou muito curioso, amo aprender coisas novas e conhecer
-          pessoas. A cerca de dois anos iniciei minha transição de carreira para
-          área de tecnologia, logo de cara descobri uma nova paixão chamada{" "}
-          <i>"Codar"</i>, e pode criar soluções para problemas reais. Certa vez
-          ouvi uma frase numa palestra que dizia:{" "}
-          <i>"Devemos ser apaixonados pelo problema e não pela solução"</i>.
-          Assim, buscando sempre soluções cada vez mais inovadoras. E desde
-          então venho estudando bastante, javascript, typescript, react, node e
-          python. Meu compromisso em aprender continuamente me permite sempre
-          buscar novas maneiras de aprimorar minhas habilidades e conhecimentos.
+          Hello, my name is Gabriel, I'm 31 years old, I'm from Volta
+          Redonda/RJ. I'm a fullstack developer and passionate about the
+          backend, mainly developing in Nodejs. I am very curious and I love
+          learning new things and meeting people. About two years ago I started
+          my career transition to the technology area and early on I discovered
+          this joy and satisfaction in creating codes and through them creating
+          solutions to real problems. My commitment to continuous learning
+          allows me to always look for new ways to improve my skills and
+          knowledge, and thus always look for increasingly innovative solutions.
         </p>
         <img
           data-aos="zoom-in-up"
@@ -50,4 +47,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

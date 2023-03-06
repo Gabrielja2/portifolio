@@ -17,7 +17,7 @@ function ProjectCards() {
     >
       <div className="m-4 text-center img">
         <a
-          href="https://github.com/Gabrielja2/My-Wallet"
+          href="https://github.com/Gabrielja2/Projeto-Blogs-API"
           target="_blank"
           rel="noreferrer"
         >

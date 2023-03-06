@@ -10,7 +10,8 @@
 }
 
 #home {
-    background: linear-gradient(90deg, #001416, #000507);
+    /* background: linear-gradient(90deg, #001416, #000507); */
+    background-image: url("../assets/img/home.jpg");
 }
 
 #frase {  

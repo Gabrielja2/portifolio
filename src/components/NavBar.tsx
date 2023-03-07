@@ -34,17 +34,17 @@ function Navbar() {
     <nav id="Navbar" className="fixed top-0 z-50 w-full">
       <div className="mx-3">
         <div className="flex items-center justify-between h-16">
-          <div className="flex">
-            <span className="mr-1 text-orange-500 text-xl">
+          <div className="flex items-center">
+            <span className="mr-1 text-orange-500 text-2xl">
               Hello, Wellcome!{" "}
             </span>
             <div id="mydiv">
               <img
+                className="w-7 sm:w-10"
                 draggable="true"
                 id="draggable-img"
                 src={heart}
                 alt="heart"
-                width="28px"
               />
             </div>
           </div>

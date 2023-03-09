@@ -118,12 +118,12 @@ function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="lenguage hidden md:flex">
-              <button className="br mr-4">
-                <img width="26px" src={br} alt="Brazil flag" />
-              </button>
-              <button className="us  mr-4">
+              <a href="#navbar" className="br mr-4">
+                <img width="27px" src={br} alt="Brazil flag" />
+              </a>
+              <a href="#navbar" className="us  mr-4">
                 <img width="26px" src={us} alt="US flag" />
-              </button>
+              </a>
             </div>
             <div className="hello">
               <span className="hello mr-1 text-orange-500 text-2xl">
@@ -257,13 +257,13 @@ function Navbar() {
             >
               Skills
             </a>
-            <div className="lenguage md:hidden flex">
-              <button className="br mr-4">
-                <img width="26px" src={br} alt="Brazil flag" />
-              </button>
-              <button className="us  mr-4">
+            <div className="lenguage md:hidden flex pt-1">
+              <a href="#navbar" className="br mr-4">
+                <img width="27px" src={br} alt="Brazil flag" />
+              </a>
+              <a href="#navbar" className="us  mr-4">
                 <img width="26px" src={us} alt="US flag" />
-              </button>
+              </a>
             </div>
           </div>
 

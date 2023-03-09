@@ -14,6 +14,6 @@
     transition: 0.32s ease-in-out;
 }
 
-#Navbar a:hover{
+#Navbar a:hover {
     top:-8px;
 }

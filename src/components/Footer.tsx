@@ -15,7 +15,7 @@ function Footer() {
         </a>
       </div>
       <div id="footer" className="bg-orange-500 p-4">
-        <span className="text-white flex justify-center text-center px-3 py-2 rounded-md text-sm font-medium">
+        <div className="txt1-footer text-white flex justify-center text-center px-3 py-2 rounded-md text-sm font-medium">
           <span>Connect with me on</span>
           <span>
             <a
@@ -30,7 +30,7 @@ function Footer() {
           <span>
             <a href="mailto:gabrielja2antunes@gmail.com">Email</a>
           </span>
-        </span>
+        </div>
       </div>
     </>
   );

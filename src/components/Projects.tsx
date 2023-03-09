@@ -7,7 +7,7 @@ function Projects() {
       style={{ background: "#000e13" }}
       className="flex flex-col justify-center min-h-screen py-8"
     >
-      <div className="text-center">
+      <div className="tltle-project text-center">
         <h5
           data-aos="fade-up"
           className="text-3xl py-8 opacity-80 md:text-5xl lg:text-6xl text-orange-500"

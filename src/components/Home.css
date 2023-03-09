@@ -2,14 +2,14 @@
     background: linear-gradient(90deg, #001416, #000507);
 }
 
-#frase {
+/* #frase {
     position: absolute;
     animation: frase 2s infinite alternate linear;
     -webkit-animation: frase  4s infinite alternate linear;
 
-  }
+  } */
   
-  @keyframes frase {
+  /* @keyframes frase {
     0% {
       left: 15%;
       top: 30%;
@@ -17,6 +17,6 @@
   
     100% {
       left: 30%;
-      top: 60%;
+      top: 40%;
     }
-  }
+  } */

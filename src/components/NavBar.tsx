@@ -5,6 +5,8 @@ import instagram from ".././assets/img/nav-icon3.svg";
 import email from ".././assets/img/nav-icon4.svg";
 import zap from ".././assets/img/nav-icon5.svg";
 import heart from ".././assets/img/heart.svg";
+import br from ".././assets/img/br.svg";
+import us from ".././assets/img/us.svg";
 import "./Navbar.css";
 
 function Navbar() {
@@ -30,14 +32,104 @@ function Navbar() {
     });
   }
 
+  //PT
+  $(function () {
+    $(".br").click(function () {
+      //Navbar large size
+      $(".hello").children().eq(0).text("Olá, Bem-vindo!");
+      $(".names").children().eq(0).text("Inicio");
+      $(".names").children().eq(1).text("Sobre");
+      $(".names").children().eq(2).text("Projetos");
+      $(".names").children().eq(3).text("Habilidades");
+
+      //Navbar small size
+      $(".names-before").children().eq(0).text("Inicio");
+      $(".names-before").children().eq(1).text("Sobre");
+      $(".names-before").children().eq(2).text("Projetos");
+      $(".names-before").children().eq(3).text("Habilidades");
+
+      //Home
+      $(".title-home").children().eq(0).text("Eu sou");
+
+      //About
+      $(".title-about").children().eq(0).text("--- Início ---");
+      $(".text-about")
+        .children()
+        .eq(0)
+        .text(
+          "Olá, meu nome é Gabriel, tenho 31 anos, sou de Volta Redonda/RJ. Sou desenvolvedor fullstack e apaixonado por backend, principalmente desenvolver em Nodejs. Sou muito curioso, amo aprender coisas novas e conhecer pessoas. Há cerca de dois anos iniciei minha transição de carreira para a área de tecnologia e logo cedo descobri essa alegria e satisfação em criar códigos e soluções para problemas reais. Meu compromisso em aprender contínuamente, me permite procurar sempre novas formas de melhorar as minhas competências e conhecimentos, e assim procurar sempre soluções cada vez mais inovadoras."
+        );
+
+      //Projects
+      $(".tltle-project").children().eq(0).text("--- Projetos ---");
+
+      //Habilidades
+      $(".title-skills").children().eq(0).text("--- Habilidades ---");
+
+      //Footer
+      $(".txt1-footer").children().eq(0).text("Conecte-se comigo pelo");
+      $(".txt1-footer").children().eq(2).text("ou me mande um");
+    });
+  });
+
+  //EN
+  $(function () {
+    $(".us").click(function () {
+      //Navbar large size
+      $(".hello").children().eq(0).text("Hello, Wellcome!");
+      $(".names").children().eq(0).text("Home");
+      $(".names").children().eq(1).text("About");
+      $(".names").children().eq(2).text("Projects");
+      $(".names").children().eq(3).text("Skills");
+
+      //Navbar small size
+      $(".names-before").children().eq(0).text("Home");
+      $(".names-before").children().eq(1).text("About");
+      $(".names-before").children().eq(2).text("Projects");
+      $(".names-before").children().eq(3).text("Skills");
+
+      //Home
+      $(".title-home").children().eq(0).text("I'm a");
+
+      //About
+      $(".title-about").children().eq(0).text("--- Home ---");
+      $(".text-about")
+        .children()
+        .eq(0)
+        .text(
+          "Hello, my name is Gabriel, I'm 31 years old, I'm from Volta Redonda/RJ. I'm a fullstack developer and passionate about backend, mainly developing in Nodejs. I am very curious, I love learning new things and meeting people. About two years ago I started my career transition to the technology area and soon discovered this joy and satisfaction in creating codes and solutions to real problems. My commitment to continuous learning allows me to always look for new ways to improve my skills and knowledge, and thus always look for increasingly innovative solutions."
+        );
+
+      //Projects
+      $(".tltle-project").children().eq(0).text("--- Projects ---");
+
+      //Habilidades
+      $(".title-skills").children().eq(0).text("--- Skills ---");
+
+      //Footer
+      $(".txt1-footer").children().eq(0).text("Connect with me on");
+      $(".txt1-footer").children().eq(2).text("or send me an");
+    });
+  });
+
   return (
     <nav id="Navbar" className="fixed top-0 z-50 w-full">
       <div className="mx-3">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <span className="mr-1 text-orange-500 text-2xl">
-              Hello, Wellcome!{" "}
-            </span>
+            <div className="lenguage hidden md:flex">
+              <button className="br mr-4">
+                <img width="26px" src={br} alt="Brazil flag" />
+              </button>
+              <button className="us  mr-4">
+                <img width="26px" src={us} alt="US flag" />
+              </button>
+            </div>
+            <div className="hello">
+              <span className="hello mr-1 text-orange-500 text-2xl">
+                Hello, Wellcome!{" "}
+              </span>
+            </div>
             <div id="mydiv">
               <img
                 className="w-7 sm:w-10"
@@ -48,7 +140,7 @@ function Navbar() {
               />
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="names hidden md:flex">
             <a
               href="#home"
               className="font-bold text-white opacity-80 hover:text-orange-500"
@@ -140,7 +232,7 @@ function Navbar() {
       </div>
       {showLinks && (
         <div className="md:hidden flex justify-between">
-          <div className="ml-3">
+          <div className="names-before ml-3">
             <a
               href="#home"
               className="text-white opacity-80 hover:text-orange-500 block"
@@ -165,7 +257,16 @@ function Navbar() {
             >
               Skills
             </a>
+            <div className="lenguage md:hidden flex">
+              <button className="br mr-4">
+                <img width="26px" src={br} alt="Brazil flag" />
+              </button>
+              <button className="us  mr-4">
+                <img width="26px" src={us} alt="US flag" />
+              </button>
+            </div>
           </div>
+
           <div className="mr-2">
             <a
               href="https://www.linkedin.com/in/gabriel-pereira-antunes/"
